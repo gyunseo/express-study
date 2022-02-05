@@ -1,0 +1,8 @@
+{
+  "name": "express-study",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": "https://github.com/gyunseo0311/express-study.git",
+  "author": "Gyunseo Lee <rbstj0311@naver.com>",
+  "license": "MIT"
+}
