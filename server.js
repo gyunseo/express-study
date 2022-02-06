@@ -4,3 +4,7 @@ const app = express(); // express 객체를 생성한다.
 app.listen(8081, () => {
     console.log('listening on 8081');
 });
+
+app.get('/hello', (req, res) => {
+    res.send('Hello, World!\n');
+});
