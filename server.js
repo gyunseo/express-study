@@ -5,6 +5,6 @@ app.listen(8081, () => {
     console.log('listening on 8081');
 });
 
-app.get('/hello', (req, res) => {
+app.get('/hello', (req, res) => { // /hello URL로 GET요청시, 'Hello, World!\n' 렌더링
     res.send('Hello, World!\n');
 });
